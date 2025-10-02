@@ -6,9 +6,9 @@ import joblib
 import matplotlib.pyplot as plt
 
 # ------------------ Load Saved Files ------------------
-lr = joblib.load("breast_cancer_model.pkl")
-scaler = joblib.load("scaler.pkl")
-le_y = joblib.load("label_encoder_y.pkl")
+lr = joblib.load("my_model.pkl")
+scaler = joblib.load("my_scaler.pkl")
+le_y = joblib.load("my_encoder.pkl")
 
 # ------------------ Streamlit UI ------------------
 st.title("Your Breast Cancer Risk Advisor")
